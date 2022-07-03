@@ -1,0 +1,11 @@
+git init
+git status
+git add .
+git status
+git commit -m "first commit"
+git config --global user.email "ravikairam@gmail.com"
+git config --global user.name "ravikairam"
+git commit -m "first commit"
+git status
+git remote add origin https://github.com/ravikairam/Bike-sharing-_JDA.git
+git push -u origin master
